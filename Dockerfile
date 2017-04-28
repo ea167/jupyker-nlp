@@ -1,5 +1,5 @@
 # NOTE: to run:
-# 	docker run -it -d -p=6006:6006 -p=8888:8888 -v=~/DockerShared/JupykerShared:/host  ea167/jupyker
+# 	docker run -it -d -p=6006:6006 -p=8888:8888 -v=~/DockerShared/JupykerShared:/host  ea167/jupyker-nlp
 #
 # http://localhost:8888 for Jupyter Notebook
 # http://localhost:6006 for TensorBoard
