@@ -42,3 +42,7 @@ RUN python3 -m spacy download en \
 RUN pip3 --no-cache-dir install  conceptnet
 # Download all models
 ### RUN python3 -m conceptnet.models import *
+
+
+CMD jupyter notebook --allow-root --no-browser --ip=* --NotebookApp.password="" \
+    & /bin/bash
