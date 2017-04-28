@@ -44,5 +44,5 @@ RUN pip3 --no-cache-dir install  conceptnet
 ### RUN python3 -m conceptnet.models import *
 
 
-CMD jupyter notebook --allow-root --no-browser --ip=* --NotebookApp.password="" \
+CMD jupyter notebook --allow-root --no-browser --ip=* --NotebookApp.password="$PASSWD" \
     & /bin/bash
