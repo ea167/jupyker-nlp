@@ -41,4 +41,4 @@ RUN python3 -m spacy download en \
 # ConceptNet
 RUN pip3 --no-cache-dir install  conceptnet
 # Download all models
-RUN python3 -m conceptnet.models import *
+#RUN python3 -m conceptnet.models import *
