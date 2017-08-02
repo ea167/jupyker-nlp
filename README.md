@@ -2,7 +2,7 @@
 Docker image for Jupiter notebook + Tensorflow + Keras + NLP: NLTK, Spacy, ConceptNet.
 
 ##### Warning:
-requires an __Nvidia GPU__, and works on Linux & Windows, but not Mac (as of Aug 2017, because of nvidia-docker wrapper). Use alternatively the [ea167/jupyker-nlp-cpu](https://hub.docker.com/r/ea167/jupyker-nlp-cpu) Docker image instead.
+requires an __Nvidia GPU__, and works on Linux, but neither Windows nor Mac (as of Aug 2017, because of nvidia-docker wrapper). Use alternatively the [ea167/jupyker-nlp-cpu](https://hub.docker.com/r/ea167/jupyker-nlp-cpu) Docker image instead.
 
 
 ##### Launch
